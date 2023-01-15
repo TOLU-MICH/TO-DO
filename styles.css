@@ -1,0 +1,92 @@
+
+.input-group{
+  border: 1px solid #ccc;
+  box-shadow: 0 0 30px 20px #e6ebee;
+  display: flex;
+  max-width: 670px;
+  border: 0;
+  border-radius: 33px;
+  white-space: nowrap;
+  margin: auto;
+  margin-bottom: 6rem;
+}
+
+.inp{
+  border: 0;
+  flex-grow: 1;
+  outline: 0;
+  padding: 15px 20px;
+  width: 0;
+  border-radius: 33px;
+  }
+
+  .font{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+
+.btn{
+  outline: 0;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 33px;
+  border: 0;
+  background-color: #e32b1e;
+  cursor: pointer;
+  color: white;
+}
+.btn:hover{
+  background-color:#d42e22;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.list{
+  list-style: none;
+  border-top: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+}
+
+#demo{
+  margin: auto;
+  max-width: 670px;
+  margin-bottom: 80px;
+}
+
+
+.space {
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+}
+
+.inp-edit{
+  outline: 0;
+  border-top : 1px inset;
+  border-bottom: inset;
+  border-left: inset;
+  border-radius: 30px;
+  height: 30px;
+  width: 22rem;
+}
+
+.pic{
+  width : 22px; 
+  height: 22px;
+  margin: auto;
+  padding-right: 1rem;
+}
+
+.cancel{
+  width: 22px;
+    height: 22px;
+    margin: auto;
+}
+
+.checkbox{
+  width: 16px;
+  margin-right: 10px;
+}
